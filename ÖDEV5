@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ArtikYilHesaplama {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int yil;
+        System.out.print("yıl giriniz : ");
+        yil = input.nextInt();
+
+        if(yil%4==0 && yil%100!=0 || yil%400==0)
+        {
+            System.out.println("artık yıl");
+        }
+        else System.out.println("artık yıl değil");
+    }
+}

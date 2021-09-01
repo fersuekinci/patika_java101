@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class VucutKitleIndeksiHesaplama {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int kilo;
+        float boy, vki;
+
+        System.out.print("Kilonuzu kg cinsinden giriniz : ");
+        kilo = input.nextInt();
+
+        System.out.print("Boyunuzu metre cinsinden giriniz : ");
+        boy = input.nextFloat();
+
+        vki = (kilo/(boy*boy));
+        System.out.print("Vücut kitle indeksiniz : " + vki);
+    }
+}

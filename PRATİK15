@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Faktoriyel {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n,n1,r,res=1;
+        System.out.print("sayı giriniz : ");
+        n = input.nextInt();
+
+        for (int i=n; i>0; i--)
+        {
+            res = res * i;
+        }
+        System.out.println(res);
+
+        System.out.print("n değeri giriniz : ");
+        n1 = input.nextInt();
+        System.out.print("r değeri giriniz : ");
+        r = input.nextInt();
+
+        int a=1;
+        for (int i=n1; i>0; i--)
+        {
+            a = a * i;
+        }
+
+        int b=1;
+        for (int i=r; i>0; i--)
+        {
+            b = b * i;
+        }
+
+        int c=1;
+        for (int i=(n1-r); i>0; i--)
+        {
+            c = c * i;
+        }
+        int kom= a/(b*c);
+        System.out.println("kombinasyon değeri : " + kom);
+    }
+}

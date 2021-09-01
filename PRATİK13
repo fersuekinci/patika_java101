@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Islemler {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n,n1,t=0,t1=0;
+
+        do{
+            System.out.println("sayı giriniz : ");
+            n = input.nextInt();
+            if(n%2 == 1) t+=n;
+        }while(n>0);
+
+        System.out.println("tek sayıların toplamı : " + t);
+
+        do{
+            System.out.println("sayı giriniz : ");
+            n1 = input.nextInt();
+            if(n1 % 4 == 0) t1+=n1;
+        }while(n1 % 2 == 0);
+        
+        System.out.println("4e bölünen sayıların toplamı : " + t1);
+    }
+}

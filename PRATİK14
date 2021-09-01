@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class kuvvet {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n,k=0,l=0,m=0;
+        System.out.print("bir sayı giriniz : ");
+        n = input.nextInt();
+
+        System.out.println("2nin kuvvetleri : ");
+        for (int i=1; i<=n; i*=2)
+        {
+            System.out.println("2^"+k+"="+i);
+            k++;
+        }
+
+        System.out.println("4ün kuvvetleri : ");
+        for (int i=1; i<=n; i*=4)
+        {
+            System.out.println("4^"+ l +"="+i);
+            l++;
+        }
+
+        System.out.println("5in kuvvetleri : ");
+        for (int i=1; i<=n; i*=5)
+        {
+            System.out.println("5^"+ m +"="+ i);
+            m++;
+        }
+    }
+}

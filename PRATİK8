@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class SınıfGecmeDurumu {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int mat,fiz,tur,kim,muz,sayi=5;
+
+            System.out.print("Matematik notunuz : ");
+            mat = input.nextInt();
+            if(mat<0 || mat>100) {
+                mat = 0;
+                sayi--;
+            }
+
+            System.out.print("Fizik notunuz : ");
+            fiz = input.nextInt();
+            if(fiz<0 || fiz>100) {
+                fiz = 0;
+                sayi--;
+            }
+
+            System.out.print("Türkçe notunuz : ");
+            tur = input.nextInt();
+            if(tur<0 || tur>100) {
+                tur = 0;
+                sayi--;
+            }
+
+            System.out.print("Kimya notunuz : ");
+            kim = input.nextInt();
+            if(kim<0 || kim>100) {
+                kim = 0;
+                sayi--;
+            }
+
+            System.out.print("Müzik notunuz : ");
+            muz = input.nextInt();
+            if(muz<0 || muz>100) {
+                muz = 0;
+                sayi--;
+            }
+        double ort = (mat+fiz+tur+kim+muz)/sayi;
+
+        System.out.println("Ortalamanız : " + ort);
+        if (ort <= 55)
+        {
+            System.out.print("Sınıfta kaldınız");
+        }
+        else
+        {
+            System.out.print("Sınıfı geçtiniz");
+        }
+    }
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ManavHesabi {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        float armut, elma, domates, muz, patlican, tutar;
+
+        System.out.println("Armut kaç kilo : ");
+        armut = input.nextFloat();
+        System.out.println("Elma kaç kilo : ");
+        elma = input.nextFloat();
+        System.out.println("Domates kaç kilo : ");
+        domates = input.nextFloat();
+        System.out.println("Muz kaç kilo : ");
+        muz = input.nextFloat();
+        System.out.println("Patlıcan kaç kilo : ");
+        patlican = input.nextFloat();
+
+        tutar = (float) (armut*(2.14)+ elma*(3.67)+ domates*(1.11)+ muz*(0.95)+ patlican*(5.00));
+        System.out.println("Toplam tutar : " + tutar + " tl");
+    }
+}

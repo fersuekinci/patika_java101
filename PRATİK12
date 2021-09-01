@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class UcakBiletiFiyatiHesaplama {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int km,yas,secim;
+        double tutar;
+
+        System.out.print("km giriniz : ");
+        km = input.nextInt();
+        if(km<0)
+        {
+            System.out.println("hatalı veri girdiniz");
+            System.exit(0);
+        }
+
+        System.out.print("yaşınızı giriniz : ");
+        yas = input.nextInt();
+        if(yas<0)
+        {
+            System.out.println("hatalı veri girdiniz");
+            System.exit(0);
+        }
+
+        System.out.print("seçiminizi yapınız : \n1-tek yön \n2-gidiş-dönüş\n");
+        secim = input.nextInt();
+
+        tutar=(km*0.10);
+
+        if(yas<12) tutar = tutar/2;
+        if(yas>=12 && yas<24) tutar = tutar - (tutar*10/100);
+        if(yas>65) tutar = tutar - (tutar*30/100);
+
+        switch (secim)
+        {
+            case 1:
+                System.out.println("toplam tutar : " + tutar);
+                break;
+            case 2:
+                tutar= 2*(tutar - (tutar*20/100));
+                System.out.println("toplam tutar : " + tutar);
+                break;
+            default:
+                System.out.println("hatalı veri girdiniz");
+        }
+    }
+}

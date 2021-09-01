@@ -99,3 +99,10 @@ Hava Sıcaklığına Göre Etkinlik Önerme
 
 **********
 
+**PRATİK10**
+Sayıları Küçükten Büyüğe Sıralayan Program
+* Java koşullu ifadeler ile girilen 3 sayıyı "küçükten büyüğe" sıralayan program yapımı.
+
+**********
+
+**

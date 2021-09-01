@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class DaireAlaniHesaplama {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int r, a;
+        double pi, alan;
+        pi = 3.14;
+        System.out.println("Yarıçap giriniz : ");
+        r = input.nextInt();
+
+        System.out.println("Daire alanı : " + (pi*r*r));
+        System.out.println("Dairenin çevresi : " + (2*pi*r));
+
+        System.out.println("Merkez açı ölçüsü giriniz :");
+        a = input.nextInt();
+
+        alan = (pi*(r*r)*a)/360;
+        System.out.println("Daire diliminin alanı : " + alan);
+    }
+}

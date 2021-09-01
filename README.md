@@ -178,3 +178,12 @@ Tek Sayıların Toplamını Bulan Program
 * Java döngüler ile tek bir sayı girilene kadar kullanıcıdan girişleri kabul eden ve girilen değerlerden çift ve 4'ün katları olan sayıları toplayıp ekrana basan programı yazıyoruz.
 
 **********
+
+**PRATİK14**
+Girilen Sayıdan Küçük 2'nin Kuvvetlerini Bulan Program
+* Java döngüler ile girilen sayıya kadar olan 2'nin kuvvetlerini ekrana yazdıran programı yazıyoruz.
+* Java döngüler ile girilen sayıya kadar olan 4 ve 5'in kuvvetlerini ekrana yazdıran programı yazıyoruz.
+
+**********
+
+**PRATİK15**

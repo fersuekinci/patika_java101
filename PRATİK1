@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class NotOrtalaması {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int mat,fiz,kim,tur,tar,muz;
+
+        System.out.println("Matematik notunuzu giriniz : ");
+        mat = input.nextInt();
+
+        System.out.println("Fizik notunuzu giriniz : ");
+        fiz = input.nextInt();
+
+        System.out.println("Kimya notunuzu giriniz : ");
+        kim = input.nextInt();
+
+        System.out.println("Türkçe notunuzu giriniz : ");
+        tur = input.nextInt();
+
+        System.out.println("Tarih notunuzu giriniz : ");
+        tar = input.nextInt();
+
+        System.out.println("Müzik notunuzu giriniz : ");
+        muz = input.nextInt();
+
+        double ortalama = (mat+fiz+kim+tur+tar+muz)/6;
+
+        System.out.println("Ortalamanız : " + ortalama);
+        //boolean durum >=60;
+        System.out.println(ortalama >=60 ? "Geçti" : "Kaldı");
+    }
+}

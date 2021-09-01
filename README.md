@@ -62,4 +62,13 @@ Manav Kasa Programı
   * Muz: 0,95 TL
   * Patlıcan : 5,00 TL
 
+**********
+
+**PRATİK6**
+Basit Hesap Makinesi Yapımı
+* Java koşullu ifadeler ile basit hesap makinesi yapımı.
+* Hesap makinesini switch-case kullanarak yapınız.
+
+**********
+
 

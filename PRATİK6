@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class HesapMakinesi {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        double n1, n2;
+        int sec;
+
+        System.out.println("İlk sayıyı giriniz : ");
+        n1 = input.nextDouble();
+        System.out.println("İkinci sayıyı giriniz : ");
+        n2 = input.nextDouble();
+
+        System.out.println("Yapılacak işlemi seçiniz : ");
+        System.out.println("1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme");
+        sec = input.nextInt();
+
+        switch (sec)
+        {
+            case 1:
+                System.out.println("Toplama işlemi sonucu : " + (n1+n2));
+                break;
+            case 2:
+                System.out.println("Çıkarma işlemi sonucu : " + (n1-n2));
+                break;
+            case 3:
+                System.out.println("Çarpma işlemi sonucu : " + (n1*n2));
+                break;
+            case 4:
+                if(n2==0) {
+                    System.out.println("0 ile bölme işlemi yapamazsınız. ");
+                    break;
+                }
+                else{
+                    System.out.println("Bölme işlemi sonucu : " + (n1/n2));
+                    break;
+                }
+            default:
+                System.out.println("ERROR");
+                break;
+        }
+    }
+}

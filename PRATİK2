@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class KdvHesaplama {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double tutar;
+
+        System.out.println("Tutar giriniz : ");
+        tutar = input.nextDouble();
+
+        boolean durum=(tutar>0 && tutar<=1000);
+
+        System.out.println("Kdv sonrası tutar :" + (durum ? (tutar+(tutar*18)/100) : (tutar+(tutar*8)/100)));
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Taksimetre {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int km;
+        double tutar, kmPrice=2.20, startPrice=10;
+
+        System.out.println("Km giriniz : ");
+        km = input.nextInt();
+
+        tutar = startPrice + (km*kmPrice);
+
+        boolean durum = tutar <= 20;
+        System.out.println("Ödenecek tutar : " + (durum ? "20" : tutar));
+    }
+}

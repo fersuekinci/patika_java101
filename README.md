@@ -216,3 +216,10 @@ Harmonik Seri Bulan Program
 **********
 
 **PRATİK19**
+Yıldız ile Üçgen Yapımı
+* Java'da döngüler kullanılarak yıldızlar ile üçgen yapıyoruz.
+* Java'da döngüler kullanarak yıldızlar ile elmas yapınız.
+
+**********
+
+**PRATİK20**

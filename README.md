@@ -210,3 +210,9 @@ Armstrong Sayıları Bulan Program
 **********
 
 **PRATİK18**
+Harmonik Seri Bulan Program
+* Java ile girilen sayının harmonik serisini bulan program yazacağız.
+
+**********
+
+**PRATİK19**

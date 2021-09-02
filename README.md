@@ -203,3 +203,10 @@ Faktöriyel Hesaplayan Program
 **********
 
 **PRATİK17**
+Armstrong Sayıları Bulan Program
+* Java döngüler ile sayının armstrong sayı olup olmadığını bulan programı yazıyoruz.
+* Bir sayının basamak sayılarının toplamını hesaplayan program yazınız.
+
+**********
+
+**PRATİK18**

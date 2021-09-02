@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Armstrong {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n, basSay=0;
+        int basDeger;
+        int result=0, result1=0;
+        int nPow,basSayTop=0;
+
+        //basamak sayısı bulma
+        System.out.print("sayı giriniz : ");
+        n = input.nextInt();
+
+        int temp=n;
+        while (temp!=0){
+            temp/=10;
+            basSay++;
+        }
+
+        //son basamak bulma
+        temp=n;
+        while (temp!=0){
+            basDeger = temp % 10;
+            nPow=1;
+            for (int i=1; i<=basSay;i++){
+                nPow *=basDeger;
+            }
+            result+=nPow;
+            temp/=10;
+        }
+        if(result==n) System.out.println("armstrong");
+        else System.out.println("armstrong değil");
+
+        //basamak sayısı toplamı bulma
+        temp=n;
+        while (temp!=0){
+            result1 += (temp%10);
+            temp=temp/10;
+        }
+        System.out.println("basamak sayısı toplamı : " + result1);
+    }
+}

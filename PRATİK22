@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Palindrom {
+    int n;
+    static boolean isPalindrom(int n)
+    {
+        int temp = n, reverseN = 0,last;
+        while (temp!=0)
+        {
+            last = temp % 10;
+            reverseN = (reverseN*10) + last;
+            temp /= 10;
+        }
+        if(n==reverseN)
+            return true;
+        else
+            return false;
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("sayı giriniz : ");
+        int n = input.nextInt();
+        System.out.println(isPalindrom(n));
+    }
+}

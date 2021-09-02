@@ -235,3 +235,32 @@ EBOB ve EKOK Bulan Program
 
 **********
 
+**ÖDEV6**
+Girilen Sayılardan Min ve Max Değerli Bulan Program
+* Java ile klavyeden girilen N tane sayma sayısından en büyük ve en küçük sayıları bulan ve bu sayıları ekrana yazan programı yazın.
+
+**********
+
+**ÖDEV7**
+Mükemmel Sayı Bulma
+* Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan ve sayı mükemmel sayı ise ekrana “mükemmel sayıdır.” değilse “mükemmel sayı değildir.” ifadelerini ekrana yazan programı Java dilinde yazınız.
+
+**********
+
+**ÖDEV8**
+Ters Üçgen Yapımı
+* Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak, yıldızlar(*) ile ekrana ters üçgen çizen programı yazın.
+
+**********
+
+**ÖDEV9**
+1 – 100 Arasındaki Asal Sayıları Bulan Program
+* Java ile 1 - 100 arasındaki asal sayıları ekrana yazdıran programı yazınız.
+
+**********
+
+**ÖDEV10**
+Fibonacci Serisi Bulan Program
+* Java döngüler ile fibonacci serisi bulan program yazıyoruz. Fibonacci serisinin eleman sayısını kullanıcıdan alın.
+
+**********

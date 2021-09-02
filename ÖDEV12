@@ -1,29 +1,20 @@
 import java.util.Scanner;
 
 public class RecursiveAsal {
-    static void asalKontrol(int a){
-        int flag=0;
-
-        if(a<=1) System.out.print("error");
-        else {
-            for (int i=2;i<a;i++)
-            {
-                if (a % i == 0) {
-                    flag = 1;
-                }
-            }
-            if(flag==0)
-            {
-                System.out.print("asal");
-            }
-            else System.out.print("asal değil");
-        }
+    static int asalKontrol(int a,int b){
+        if(a<2) return -1;
+        if(b==1) return 1;
+        if(a%b==0) return 0;
+        return asalKontrol(a,b-1);
     }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("sayı giriniz : ");
         int n = input.nextInt();
-        asalKontrol(n);
+        int res = asalKontrol(n,n/2);
+        if(res==0) System.out.println("asal değil");
+        else if(res==-1) System.out.println("error");
+        else System.out.println("asal");
     }
 }

@@ -228,3 +228,10 @@ ATM Projesi
 * Aynı projedeki ATM işlemlerini "Switch-Case" kullanarak yapınız.
 
 **********
+
+**PRATİK21**
+EBOB ve EKOK Bulan Program
+* Java ile iki sayının EBOB ve EKOK değerlerini bulan program yazıyoruz.
+
+**********
+

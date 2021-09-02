@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Min_Max {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n,n1;
+        System.out.print("kaç sayı gireceksiniz : ");
+        n = input.nextInt();
+
+        System.out.print("sayı giriniz : ");
+        n1= input.nextInt();
+
+        int min=n1,max=n1;
+        while(n!=1)
+        {
+            System.out.print("sayı giriniz : ");
+            n1= input.nextInt();
+
+            if(n1<min) min=n1;
+            if(n1>max) max=n1;
+            n--;
+        }
+        System.out.println("min : " + min);
+        System.out.println("max : " + max);
+    }
+}

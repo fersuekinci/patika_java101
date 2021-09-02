@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class UsluSayi {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n,k,res=1;
+
+        System.out.print("üssü alınacak sayı : ");
+        n = input.nextInt();
+        System.out.print("üs : ");
+        k = input.nextInt();
+
+        for(int i=0; i<k; i++) {
+            res *= n;
+        }
+        System.out.print("sonuç : " + res);
+    }
+}

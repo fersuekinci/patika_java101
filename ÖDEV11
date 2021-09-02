@@ -1,14 +1,10 @@
 import java.util.Scanner;
 
 public class RecursiveUsAlma {
-    static void Us(int n1, int n2)
+    static int Us(int n1, int n2)
     {
-        int res=1;
-        for(int i =1; i<=n2;i++)
-        {
-            res *= n1;
-        }
-        System.out.print("sonuç = " + res);
+        if(n2==0) return 1;
+        else return n1*(Us(n1,n2-1));
     }
 
     public static void main(String[] args) {
@@ -17,6 +13,6 @@ public class RecursiveUsAlma {
         int n1 = input.nextInt();
         System.out.print("üs değeri giriniz : ");
         int n2 = input.nextInt();
-        Us(n1,n2);
+        System.out.println(Us(n1,n2));
     }
 }

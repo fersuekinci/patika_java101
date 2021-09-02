@@ -196,4 +196,10 @@ Faktöriyel Hesaplayan Program
 
 **********
 
-**
+**PRATİK16**
+Üslü Sayı Hesaplayan Program
+* Java ile kullanıcının girdiği değerler ile üslü sayı hesaplayan programı "For Döngüsü" kullanarak yapınız.
+
+**********
+
+**PRATİK17**

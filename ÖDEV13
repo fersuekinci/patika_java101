@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class DesenMethod {
+
+    static int DesenDown(int a,int b) {
+        if(a>0)
+        {
+            System.out.print(a+" ");
+            return DesenDown((a-5),b);
+        }
+        else
+        {
+            System.out.print(a+" ");
+            while(a!=b)
+            {
+                a+=5;
+                System.out.print(a+" ");
+            }
+            return 0;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("sayı giriniz : ");
+        int n = input.nextInt();
+        DesenDown(n,n);
+    }
+}

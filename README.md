@@ -264,3 +264,40 @@ Fibonacci Serisi Bulan Program
 * Java döngüler ile fibonacci serisi bulan program yazıyoruz. Fibonacci serisinin eleman sayısını kullanıcıdan alın.
 
 **********
+
+**PRATİK22**
+Palindrom Sayılar
+* Java ile bir sayının "Palindrom Sayı" olup olmadığını bulan bir program yapıyoruz
+
+**********
+
+**PRATİK23**
+Recursive ile Fibonacci Serisi
+* Java'da recursive metotlar ile fibonacci serisi bulan program yapıyoruz.
+
+**********
+
+**PRATİK24**
+Gelişmiş Hesap Makinesi
+* Mod almak ve dikdörtgen alan çevre hesabını yapan metotları yazıp menüde işlevsel hale getiriniz.
+
+**********
+
+**ÖDEV11**
+Recursive Metotlar ile Üslü Sayı Hesaplama
+* Java dilinde, taban ve üs değerleri kullanıcıdan alınan üs alma işlemini "Recursive" metot kullanarak yapan programı yazınız.
+
+**********
+
+**ÖDEV12**
+Recursive Metot ile Asal Sayılar
+* Java dilinde "Recursive" metot kullanarak, kullanıcıdan alınan sayının "Asal" sayı olup olmadığını bulan programı yazın.
+
+**********
+
+**ÖDEV13**
+Desene Göre Metot Oluşturma
+* Java dilinde kullanıcıdan alınan n değerine göre aşağıdaki kurala uyan döngü kullanmadan bir "Recursive" metot yazın.
+* Kural : Girilen sayı 0 veya negatif olduğu yere kadar girilen sayıdan 5 rakamını çıkarın. Her çıkarma işlemi sırasında ekrana son değeri yazdırın. Sayı negatif veya 0 olduktan sonra tekrar 5 ekleyin. Yine her ekleme işleminde sayının son değerini ekrana yazdırın.
+
+**********

@@ -350,3 +350,10 @@ Dizideki Elemanları Sıralama
 * Java dilinde, dizideki elemanları küçükten büyüğe sıralayan programı yazınız. Dizinin boyutunu ve dizinin elemanlarını kullanıcıdan alınız.
 
 **********
+
+**ÖDEV16**
+Dizideki Elemanların Frekansını Bulma
+* Java dilinde, dizideki elemanların kaç kez tekrar edildiğini yani frekanslarını bulan programı yazınız.
+
+**********
+

@@ -344,3 +344,9 @@ Dizideki Tekrar Eden Sayıları Bulan Program
 * Bir sayı dizisindeki tekrar eden çift sayıları berlirten programı yazınız.
 
 **********
+
+**ÖDEV15**
+Dizideki Elemanları Sıralama
+* Java dilinde, dizideki elemanları küçükten büyüğe sıralayan programı yazınız. Dizinin boyutunu ve dizinin elemanlarını kullanıcıdan alınız.
+
+**********

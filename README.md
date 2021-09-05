@@ -338,3 +338,9 @@ Dizideki Elemanların Max ve Min Değerlerini Bulan Program
 * Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
 
 **********
+
+**PRATİK30**
+Dizideki Tekrar Eden Sayıları Bulan Program
+* Bir sayı dizisindeki tekrar eden çift sayıları berlirten programı yazınız.
+
+**********

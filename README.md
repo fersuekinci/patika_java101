@@ -320,3 +320,9 @@ Maaş Hesabı Yapan Sınıf
 * Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları ile çalışanların maaşlarını hesaplayan bir sınıf yazmalısınız.
 
 **********
+
+**PRATİK27**
+Pratik - Dizideki Elemanların Ortalamasını Bulan Program
+* Dizideki sayıların harmonik ortalamasını hesaplayan programı yazınız.
+
+**********

@@ -1,0 +1,42 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class ArrayMaxMin {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("bir sayı giriniz : ");
+        int n = input.nextInt();
+
+        int[] list = {1,4,15,75,65,81,27};
+
+        int min = list[0];
+        int max = list[0];
+
+        for ( int i : list){
+            if(i<min)
+                min = i;
+            if(i>max)
+                max = i;
+        }
+
+        int nmin = list[0];
+        int nmax = list[0];
+        Arrays.sort(list);
+        System.out.println(Arrays.toString(list));
+
+        for(int j : list){
+            if(j>n) {
+                nmax = j;
+                break;
+            }
+            if(j<n) {
+                nmin = j;
+            }
+        }
+        
+        System.out.println("min : " + min);
+        System.out.println("max : " + max);
+        System.out.println("girilen sayıya en yakın min : " + nmin);
+        System.out.println("girilen sayıya en yakın max : " + nmax);
+    }
+}

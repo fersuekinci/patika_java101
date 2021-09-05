@@ -357,3 +357,8 @@ Dizideki Elemanların Frekansını Bulma
 
 **********
 
+**ÖDEV17**
+Matrisin Transpozu
+* Java dilinde, çok boyutlu diziler ile oluşturulmuş matrisin transpozunu bulan programı yazınız.
+
+**********

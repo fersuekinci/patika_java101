@@ -315,3 +315,8 @@ Boks Maçı
 
 **********
 
+**ÖDEV14**
+Maaş Hesabı Yapan Sınıf
+* Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları ile çalışanların maaşlarını hesaplayan bir sınıf yazmalısınız.
+
+**********

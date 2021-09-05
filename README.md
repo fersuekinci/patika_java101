@@ -326,3 +326,15 @@ Pratik - Dizideki Elemanların Ortalamasını Bulan Program
 * Dizideki sayıların harmonik ortalamasını hesaplayan programı yazınız.
 
 **********
+
+**PRATİK28**
+Dizideki Elemanların Max ve Min Değerlerini Bulan Program
+* Dizideki elemanların girilen sayıdan küçük en yakın sayıyı ve en büyük en yakın sayıyı bulan programı yazınız.
+
+**********
+
+**PRATİK29**
+Çok Boyutlu Dizile ile A Harfi Oluşturma
+* Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
+
+**********

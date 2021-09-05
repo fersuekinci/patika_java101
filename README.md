@@ -368,3 +368,9 @@ Sayı Tahmin Oyunu
 * Java dilinde programın 0-100 arasında rastgele seçtiği bir sayıyı kullanıcının tahmin etmesini istediğimiz bir "Sayı Tahmin Oyunu" yapıyoruz.
 
 **********
+
+**PRATİK32**
+Palindromik Kelime
+* Java dilinde kullanıcının girdiği kelimenin "Palindromik" olup olmadığı bulan bir program yazıyoruz.
+
+**********

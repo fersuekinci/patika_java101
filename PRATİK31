@@ -1,0 +1,46 @@
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Random;
+
+public class NumberGuessingGame {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int number = random.nextInt(100);
+
+        Scanner input = new Scanner(System.in);
+        int right = 0;
+        int selected;
+        int[] wrong = new int[5];
+        boolean isWin = false;
+
+        while (right<5){
+            System.out.println("lütfen tahmininizi giriniz : ");
+            selected = input.nextInt();
+
+            if(selected < 0 || selected>100){
+                System.out.println("lütfen 1-100 arasında bir sayı giriniz");
+                continue;
+            }
+            if(selected==number){
+                System.out.println("tebrikler doğru tahmin");
+                isWin=true;
+                break;
+            }
+            else {
+                System.out.println("hatalı sayı girdiniz");
+                if(selected>number)
+                    System.out.println(selected + " sayısı gizli sayıdan büyüktür");
+                else
+                    System.out.println(selected + " sayısı gizli sayıdan küçüktür");
+
+                wrong[right++]=selected;
+                System.out.println("kalan hakkınız : " + (5-right));
+            }
+        }
+        if(!isWin) {
+            System.out.println("kaybettiniz");
+            System.out.println("doğru sayı : " + number);
+            System.out.println("tahminleriniz : " + Arrays.toString(wrong));
+        }
+    }
+}

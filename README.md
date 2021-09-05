@@ -301,3 +301,17 @@ Desene Göre Metot Oluşturma
 * Kural : Girilen sayı 0 veya negatif olduğu yere kadar girilen sayıdan 5 rakamını çıkarın. Her çıkarma işlemi sırasında ekrana son değeri yazdırın. Sayı negatif veya 0 olduktan sonra tekrar 5 ekleyin. Yine her ekleme işleminde sayının son değerini ekrana yazdırın.
 
 **********
+
+**PRATİK25**
+Öğrenci Not Sistemi
+* Course sınıfına derse ait sözlü notu kısmını girin ve ortalamaya etkisini her ders için ayrı ayrı belirtin. Sözlü notlarınıda ortalamaya etkileme yüzdesi ile dahil edin.
+
+**********
+
+**PRATİK26**
+Boks Maçı
+* Java Sınıflar ile boks maçını simüle eden programı yazıyoruz.
+* Projeye ilk kimin dövüşe başlayacağını %50 olasılık ile hesaplayan sistemi entegre ediniz.
+
+**********
+
